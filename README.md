@@ -4,8 +4,7 @@
 
 ---
 
-## 🏷️ Créé par :
-Notre ancien groupe de développement *(aujourd’hui dissous)*.
+## 🏷️ Créé par : Xiniths
 
 ## 📦 Description :
 **Packet Reader** est un outil open source développé entre **2018 et 2022**, visant à détecter des menaces basiques sur les réseaux.  
