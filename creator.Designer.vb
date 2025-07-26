@@ -25,6 +25,7 @@ Partial Class creator
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(creator))
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Label7 = New System.Windows.Forms.Label()
         Me.TextBox3 = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.TextBox2 = New System.Windows.Forms.TextBox()
@@ -34,7 +35,6 @@ Partial Class creator
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.VScrollBar1 = New System.Windows.Forms.VScrollBar()
-        Me.Label7 = New System.Windows.Forms.Label()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -68,6 +68,16 @@ Partial Class creator
         Me.Panel1.Size = New System.Drawing.Size(672, 408)
         Me.Panel1.TabIndex = 2
         '
+        'Label7
+        '
+        Me.Label7.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold)
+        Me.Label7.ForeColor = System.Drawing.Color.White
+        Me.Label7.Location = New System.Drawing.Point(4, 293)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(635, 104)
+        Me.Label7.TabIndex = 9
+        Me.Label7.Text = resources.GetString("Label7.Text")
+        '
         'TextBox3
         '
         Me.TextBox3.BackColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer), CType(CType(35, Byte), Integer))
@@ -77,7 +87,7 @@ Partial Class creator
         Me.TextBox3.Name = "TextBox3"
         Me.TextBox3.Size = New System.Drawing.Size(633, 22)
         Me.TextBox3.TabIndex = 8
-        Me.TextBox3.Text = "https://discord.gg/nQBaUpdcHn"
+        Me.TextBox3.Text = "https://discord.gg/GGkSkwj2r2"
         '
         'Label6
         '
@@ -119,7 +129,7 @@ Partial Class creator
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(633, 22)
         Me.TextBox1.TabIndex = 4
-        Me.TextBox1.Text = "https://github.com/Valkrox/Code0-Packet-reader"
+        Me.TextBox1.Text = "https://github.com/GT6809/PacketReader"
         '
         'Label4
         '
@@ -162,16 +172,6 @@ Partial Class creator
         Me.VScrollBar1.Name = "VScrollBar1"
         Me.VScrollBar1.Size = New System.Drawing.Size(14, 406)
         Me.VScrollBar1.TabIndex = 0
-        '
-        'Label7
-        '
-        Me.Label7.Font = New System.Drawing.Font("Segoe UI", 8.25!, System.Drawing.FontStyle.Bold)
-        Me.Label7.ForeColor = System.Drawing.Color.White
-        Me.Label7.Location = New System.Drawing.Point(4, 293)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(635, 104)
-        Me.Label7.TabIndex = 9
-        Me.Label7.Text = resources.GetString("Label7.Text")
         '
         'creator
         '
